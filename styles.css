@@ -79,12 +79,12 @@ button+p{
 span{
     color: green;
 }
-/* input:valid{
-    border: 2px solid green
+input:valid{
+    border: 2px solid green;
 }
 input:invalid{
-    border: rgb(197, 33, 33);
-} */
+    border: 2px solid rgb(197, 33, 33);
+}
 input:focus{
     border:2px solid rgb(69, 69, 233);
 }
