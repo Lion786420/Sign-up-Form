@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Narnoor&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    font-family: 'Narnoor', serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.img {
+    display: flex;
+    width: 30vw;
+    background-repeat: no-repeat;
+    background-image: url(https://cdn.wallpapersafari.com/14/26/oMvrCn.jpg);
+    object-fit: cover;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: 25vh;
+    padding: 50px 250px;
+    background-color: rgb(248, 244, 244);
+}
+p{
+    font-size: 30px;
+}
